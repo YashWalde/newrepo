@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Sidebar styling */
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #650101;
+      padding-top: 20px;
+    }
+
+    /* Page content styling */
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+
+    /* Card styling */
+    .card {
+      margin-bottom: 20px;
+    }
+    .ui{
+        color: rgb(160, 34, 17);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <h3 class="text-light pl-4">Dashboard</h3>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#">Students</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#">Teachers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#">Subjects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" href="#">Examinations</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" href="#">Activities</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Page content -->
+<div class="content">
+  <h2 class="ui">College Admin Dashboard</h2>
+  <div class="row">
+    <!-- Statistics Cards -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Total Students</h5>
+          <p class="card-text">FE-200 <br>
+            SE-178 <br>
+            TE-177 <br>
+            BE-150 <br>
+            Total- 705</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Total Teachers</h5>
+          <p class="card-text">50
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Total Subjects</h5>
+          <p class="card-text">20</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+
+</body>
+</html>
